@@ -287,6 +287,10 @@ h6 {
   background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adiciona centralização vertical */
+  text-align: center; /* Adiciona centralização horizontal */  
 }
 
 @media (min-width: 992px) {
